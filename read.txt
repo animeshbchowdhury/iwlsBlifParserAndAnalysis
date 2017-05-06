@@ -1,0 +1,2 @@
+/home/animesh/ACADEMIC_Research/IWLS2017/PycharmProjects/parseBlifAIG_v1.8/testFiles/adder.blif
+/home/animesh/ACADEMIC_Research/IWLS2017/PycharmProjects/parseBlifAIG_v1.8/yFiles/adder.yig

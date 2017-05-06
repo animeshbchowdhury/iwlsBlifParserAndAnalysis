@@ -1,0 +1,16 @@
+.model comb2Top
+.inputs a b c /
+d
+.outputs f1 /
+f2
+.names a b l1
+11 0
+.names l1 c l2
+10 1
+.names l2 d l3
+11 0
+.names l1 l3 f1
+11 0
+.names l3 l1 f2
+11 0
+.end

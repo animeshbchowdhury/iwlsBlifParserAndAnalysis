@@ -1,0 +1,46 @@
+
+
+##### INPUT SIGNALS ####
+
+
+a
+c
+b
+d
+
+
+#### INTERNAL SIGNALS ####
+
+
+l2
+l1
+
+
+##### OUTPUT SIGNALS ####
+
+
+f
+
+
+ ######### FAN IN CONE Analysis ###########
+
+
+--------------
+PRIMARY OUTPUT : f
+PIs in FanIn Cone :
+d
+c
+a
+b
+------------------
+------------------
+
+
+
+
+Time Taken :5.50746917725e-05 seconds
+l2
+l1
+l1 = Y2( ~a ,~b ,1)
+l2 = Y2( l1, ~c ,0)
+f = Y2( ~l2 ,~d ,1)

@@ -1,0 +1,10 @@
+flagStatus = 0
+gateCount = 0
+dictOfInputs = {}
+dictOfOutputs = {}
+dictOfInternalSignals = {}
+dictOfInternalSignalsLogic = {}
+dictOfOutputSignalLogic = {}
+blifFileName = ""
+#readFileHandler = open('dumpData.txt','r+')
+#writeFileHandler = open('dumpData.txt','a+')

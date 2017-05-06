@@ -1,0 +1,74 @@
+
+
+##### INPUT SIGNALS ####
+
+
+a
+c
+b
+
+
+#### INTERNAL SIGNALS ####
+
+
+l6
+l7
+l4
+l5
+l2
+l3
+l1
+l8
+
+
+##### OUTPUT SIGNALS ####
+
+
+sum
+cout
+
+
+ ######### FAN IN CONE Analysis ###########
+
+
+--------------
+PRIMARY OUTPUT : sum
+PIs in FanIn Cone :
+b
+c
+a
+------------------
+------------------
+
+
+--------------
+PRIMARY OUTPUT : cout
+PIs in FanIn Cone :
+a
+c
+b
+------------------
+------------------
+
+
+
+
+Time Taken :0.000380992889404 seconds
+l7
+l6
+l1
+l5
+l4
+l8
+l2
+l3
+l4 = Y2( a, ~b ,0)
+l5 = Y2( l4, ~c ,0)
+l1 = Y2( a, c, 0)
+l6 = Y2( ~b ,c, 0)
+l7 = Y2( ~l1 ,~l5 ,0)
+sum = Y2( ~l7 ,l6, 1)
+l3 = Y2( b, c, 0)
+l2 = Y2( a, b, 0)
+l8 = Y2( ~l2 ,~l3 ,0)
+cout = Y2( ~l8 ,l1, 1)

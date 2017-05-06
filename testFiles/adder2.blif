@@ -1,0 +1,26 @@
+.model adderTop
+.inputs a b \
+ c
+.outputs sum \
+ cout
+.names a c l1
+11 1
+.names a b l2
+11 1
+.names b c l3
+11 1
+.names a b l4
+10 1
+.names l4 c l5
+10 1
+.names b c l6
+01 1
+.names l1 l5 l7
+00 1
+.names l7 l6 sum
+10 0
+.names l2 l3 l8
+00 1
+.names l8 l1 cout
+10 0
+.end

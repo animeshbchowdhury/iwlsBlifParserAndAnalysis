@@ -4,4 +4,5 @@ New in parseBlifAIG_v1.6 :-
 1) FAN IN Cone logic had bug
 
     Previously if element was not present in nodeAlreadyExplored, it was appended.
+
     Now, currently explored node is appended in nodeAlreadyExplored.
